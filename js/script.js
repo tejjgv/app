@@ -29,10 +29,10 @@ toggleBtn.onclick = (e) =>{
 
 let profile = document.querySelector('.header .flex .profile');
 
-document.querySelector('#user-btn').onclick = () =>{
-   profile.classList.toggle('active');
-   search.classList.remove('active');
-}
+document.querySelector('#user-btn').onclick = () => {
+   // Change the URL below to the desired link
+   window.location.href = 'https://facebook.com'
+};
 
 let search = document.querySelector('.header .flex .search-form');
 
