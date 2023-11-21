@@ -518,8 +518,9 @@ section{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap:1.5rem;
-   justify-content: center;
+   justify-content: all;
    align-items: flex-start;
+   
 }
 
 .courses .box-container .box{
@@ -585,6 +586,17 @@ section{
    text-align: center;
    margin-top: 2rem;
 }
+.courses {
+   width: 100%;
+}
+
+.box-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+
 
 .playlist-details .row{
    display: flex;
