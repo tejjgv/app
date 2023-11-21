@@ -34,13 +34,6 @@ document.querySelector('#user-btn').onclick = () => {
    window.location.href = 'https://facebook.com'
 };
 
-let profile = document.querySelector('.header .flex .profile');
-
-document.querySelector('#home').onclick = () => {
-   // Change the URL below to the desired link
-   window.location.href = 'https://facebook.com'
-};
-
 let search = document.querySelector('.header .flex .search-form');
 
 document.querySelector('#search-btn').onclick = () =>{
