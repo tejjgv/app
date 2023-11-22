@@ -31,13 +31,13 @@ let profile = document.querySelector('.header .flex .profile');
 
 document.querySelector('#user-btn').onclick = () => {
    // Change the URL below to the desired link
-   window.location.href = 'https://facebook.com'
+   window.location.href = 'https://team-363-frontend.vercel.app/profile'
 };
 let home = document.querySelector('.header .flex .profile');
 
 document.querySelector('#menu-btn').onclick = () => {
    // Change the URL below to the desired link
-   window.location.href = 'https://facebook.com'
+   window.location.href = 'https://team-363-frontend.vercel.app/main'
 };
 
 let search = document.querySelector('.header .flex .search-form');
